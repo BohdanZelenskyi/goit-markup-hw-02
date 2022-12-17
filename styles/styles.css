@@ -102,6 +102,10 @@ body {font-family: "Roboto", sans-serif;
     color: var(--color-link-visited);
 }
 
+.contacts-link:focus {
+    color: var(--color-link-visited);
+}
+
 /* HERO SECTION */
 
 .hero {
