@@ -7,6 +7,7 @@
     --color-accent: #E7E9FC; 
     --color-grey: #8E8F99;
     --color-button-visited:  #404BBF;
+    --color-link-visited: purple; 
 }
 
 body {font-family: "Roboto", sans-serif;
@@ -30,9 +31,11 @@ body {font-family: "Roboto", sans-serif;
     color: var(--color-grey)
 }
 
-.link:visited {
-    color: purple;
+
+.link:active {
+    color: var(--color-link-visited);
 }
+
 
 .portfolio-filter-btn:focus {
     background-color: var(--color-blue);
@@ -68,6 +71,7 @@ body {font-family: "Roboto", sans-serif;
 }
 
 .header-list {
+    color: var(--color-dark);
     
     
 }
@@ -92,6 +96,10 @@ body {font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-dark-grey);
+}
+
+.contacts-link:hover {
+    color: var(--color-link-visited);
 }
 
 /* HERO SECTION */
@@ -262,9 +270,15 @@ body {font-family: "Roboto", sans-serif;
 }
 
 
-.portfolio-list {}
+.portfolio-list {
+}
 
-.portfolio-list-item {}
+.portfolio-list-item {
+}
+
+.portfolio-list-item>a {
+    text-decoration: none;
+}
 
 .portfolio-title {
     font-weight: 500;
