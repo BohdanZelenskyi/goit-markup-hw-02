@@ -85,6 +85,14 @@ body {font-family: "Roboto", sans-serif;
     color: var(--color-dark);
 }
 
+.header-link:hover {
+    color: var(--color-blue);
+}
+
+.header-link:focus {
+    color: var(--color-blue);
+}
+
 
 .header-contacts-list {
     
@@ -99,11 +107,11 @@ body {font-family: "Roboto", sans-serif;
 }
 
 .contacts-link:hover {
-    color: var(--color-link-visited);
+    color: var(--color-blue);
 }
 
 .contacts-link:focus {
-    color: var(--color-link-visited);
+    color: var(--color-blue);
 }
 
 /* HERO SECTION */
